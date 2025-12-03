@@ -1374,6 +1374,7 @@ export default function GaneshAkharaWebsite() {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
