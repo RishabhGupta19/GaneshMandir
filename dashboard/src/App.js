@@ -264,7 +264,7 @@ import React, { useEffect, useState } from "react";
 import Toast from "./Toast"; // Your existing Toast component
 import ConfirmationToast from "./ConfirmationToast"; // Your existing Confirmation component
 
-const API_BASE = "http://localhost:5000"; // or your LAN / deployed URL
+const API_BASE = "https://ganeshmandir.onrender.com"; // or your LAN / deployed URL
 
 export default function AdminBookingDashboard() {
   const [bookings, setBookings] = useState([]);
