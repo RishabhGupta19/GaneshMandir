@@ -6,7 +6,7 @@ import audio from "./audioPlayer";
 const API_BASE = "https://ganeshmandir.onrender.com"; // change to Railway URL after deploy
 console.log("API Base:", API_BASE);
 
-
+ 
 export default function GaneshAkharaWebsite() {
   const [activeSection, setActiveSection] = useState(() => {
     const hash = window.location.hash.replace("#", "");
