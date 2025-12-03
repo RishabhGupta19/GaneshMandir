@@ -3,7 +3,7 @@ import { Calendar, Clock, Home, BookOpen, Info, Phone, MapPin, Mail, Music, Volu
 import { useToast } from './Toast';
 import { Analytics } from "@vercel/analytics/react";
 import audio from "./audioPlayer";
-const API_BASE = "http://localhost:5000"; // change to Railway URL after deploy
+const API_BASE = "https://ganeshmandir.onrender.com"; // change to Railway URL after deploy
 console.log("API Base:", API_BASE);
 
 
