@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Calendar, Clock, Home, BookOpen, Info, Phone, MapPin, Mail, Music, VolumeX, Image as ImageIcon, Menu, X } from 'lucide-react';
 import { useToast } from './Toast';
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 import audio from "./audioPlayer";
 const API_BASE = "http://localhost:5000"; // change to Railway URL after deploy
 console.log("API Base:", API_BASE);
@@ -1377,7 +1377,7 @@ export default function GaneshAkharaWebsite() {
     </div>
   );
 }
-
+<Analytics />
 // Helper component for Contact Section (optional but good practice)
 const ContactInfo = ({ icon: Icon, title, text }) => (
   <div className="flex items-start space-x-4 p-4 bg-orange-50 rounded-lg border-l-4 border-red-500 shadow-md">
