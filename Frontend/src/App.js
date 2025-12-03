@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Calendar, Clock, Home, BookOpen, Info, Phone, MapPin, Mail, Music, VolumeX, Image as ImageIcon, Menu, X } from 'lucide-react';
 import { useToast } from './Toast';
-
+import { Analytics } from "@vercel/analytics/react"
 import audio from "./audioPlayer";
 const API_BASE = "http://localhost:5000"; // change to Railway URL after deploy
 console.log("API Base:", API_BASE);
