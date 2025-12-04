@@ -16,8 +16,7 @@
     "react-toastify": "^11.0.5",
     "tailwind": "^4.0.0",
     "toast": "^0.5.4",
-    "web-vitals": "^2.1.4",
-    "@vercel/analytics": "^1.6.1"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
