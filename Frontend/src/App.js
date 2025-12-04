@@ -1116,13 +1116,13 @@ export default function GaneshAkharaWebsite() {
                             <ContactInfo 
                               icon={Phone} 
                               title="Call Us" 
-                              text="Main: +91 XXXXX XXXXX | Accommodation: +91 XXXXX XXXXX" 
+                              text="Main: +91 94357 14883 | Accommodation: +91 86380 95387" 
                             />
 
                             <ContactInfo 
                               icon={Mail} 
                               title="Email Us" 
-                              text="inquiry@ganeshakhara.com | booking@ganeshakhara.com" | "ganeshakhra1901@gmail.com" 
+                              text="inquiry@ganeshakhara.com | booking@ganeshakhara.com | ganeshakhra1901@gmail.com" 
                             />
 
                             <ContactInfo 
