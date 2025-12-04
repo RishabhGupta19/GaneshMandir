@@ -10,9 +10,21 @@ import inquiryRoutes from "./routes/inquiryRoutes.js";
 dotenv.config();
 
 const app = express();
-app.use(cors({
-  origin: "*"
-}));
+// app.use(cors({
+//   origin: "*"
+// }));
+app.use(
+  cors({
+    origin: [
+      "https://www.ganeshakhara.com",
+      "ganeshakhara.com,
+      "https://ganesh-mandir-vgfi.vercel.app",
+      "http://localhost:3000"
+    ],
+    methods: ["GET", "POST", "PATCH", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
 
 app.use(helmet());
 app.use(express.json());
