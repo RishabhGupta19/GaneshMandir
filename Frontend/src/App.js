@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Calendar, Clock, Home, BookOpen, Info, Phone, MapPin, Mail, Music, VolumeX, Image as ImageIcon, Menu, X } from 'lucide-react';
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { useToast } from './Toast';
 
 import audio from "./audioPlayer";
@@ -226,6 +227,7 @@ export default function GaneshAkharaWebsite() {
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-red-50 font-sans">
         <ToastContainer />
         <Analytics />
+        <SpeedInsights/>
 
       {activeSection === "home" && showMusicPrompt && (
         <div className="fixed top-0 left-0 w-full bg-red-800 text-white text-center p-3 z-50 shadow-2xl">
