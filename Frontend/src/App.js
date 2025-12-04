@@ -225,7 +225,7 @@ export default function GaneshAkharaWebsite() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-red-50 font-sans">
         <ToastContainer />
-
+        <Analytics />
 
       {activeSection === "home" && showMusicPrompt && (
         <div className="fixed top-0 left-0 w-full bg-red-800 text-white text-center p-3 z-50 shadow-2xl">
@@ -1386,7 +1386,7 @@ export default function GaneshAkharaWebsite() {
     </div>
   );
 }
-<Analytics />
+
 // Helper component for Contact Section (optional but good practice)
 const ContactInfo = ({ icon: Icon, title, text }) => (
   <div className="flex items-start space-x-4 p-4 bg-orange-50 rounded-lg border-l-4 border-red-500 shadow-md">
