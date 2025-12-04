@@ -427,7 +427,7 @@ export default function GaneshAkharaWebsite() {
                         {/* Uncomment below and replace with your actual image */}
                         <img
                           src="/ganeshji.png"
-                          alt="Lord Ganesha"
+                          alt="Ganesh Akhara Mandir Gauripur Assam temple photo"
                           className="w-full h-full object-cover object-fit"
                         />
                       </div>
@@ -511,7 +511,7 @@ export default function GaneshAkharaWebsite() {
                   {/* Ganesha Image */}
                   <img
                     src="/ganesha1.png"
-                    alt="Lord Ganesha"
+                    alt="Ganesh Akhara Mandir Gauripur Assam temple photo"
                     className=" sm:w-52 md:w-64 mx-auto drop-shadow-2xl animate-fadeIn w-22 h-70"
                   />
 
@@ -526,9 +526,9 @@ export default function GaneshAkharaWebsite() {
 
                   {/* Diyas placed ABOVE the footer */}
                   <div className="absolute -bottom-6 w-full flex justify-around px-10">
-                    <img src="/diya.jpg" className="w-10 h-10 rounded-full object-cover animate-float" />
-                    <img src="/diya.jpg" className="w-12 h-12 rounded-full object-cover animate-float delay-300" />
-                    <img src="/diya.jpg" className="w-10 h-10 rounded-full object-cover animate-float delay-500" />
+                    <img src="/diya.jpg" alt="Evening aarti at Ganesh Akhara Mandir Gauripur" className="w-10 h-10 rounded-full object-cover animate-float" />
+                    <img src="/diya.jpg" alt="Evening aarti at Ganesh Akhara Mandir Gauripur" className="w-12 h-12 rounded-full object-cover animate-float delay-300" />
+                    <img src="/diya.jpg" alt="Evening aarti at Ganesh Akhara Mandir Gauripur" className="w-10 h-10 rounded-full object-cover animate-float delay-500" />
                   </div>
 
                 </div>
