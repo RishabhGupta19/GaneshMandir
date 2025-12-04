@@ -17,7 +17,7 @@ app.use(
   cors({
     origin: [
       "https://www.ganeshakhara.com",
-      "ganeshakhara.com,
+      "ganeshakhara.com",
       "https://ganesh-mandir-vgfi.vercel.app",
       "http://localhost:3000"
     ],
