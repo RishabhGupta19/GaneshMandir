@@ -1120,7 +1120,7 @@ export default function GaneshAkharaWebsite() {
                             <ContactInfo 
                               icon={Mail} 
                               title="Email Us" 
-                              text="inquiry@ganeshakhara.com | booking@ganeshakhara.com" 
+                              text="inquiry@ganeshakhara.com | booking@ganeshakhara.com" | "ganeshakhra1901@gmail.com" 
                             />
 
                             <ContactInfo 
