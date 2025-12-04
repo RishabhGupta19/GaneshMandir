@@ -72,6 +72,27 @@ export const bookingAdminTemplate = (data) => `
       <tr><td style="${thStyle}">👥 Guests</td><td style="${tdStyle}">${data.guests}</td></tr>
       <tr><td style="${thStyle}">🚪 Rooms</td><td style="${tdStyle}">${data.rooms}</td></tr>
     </table>
+    <br>
+    <div style="text-align: center; margin-top: 20px;">
+  <a 
+    href="https://ganesh-mandir-vgfi.vercel.app/" 
+    target="_blank"
+    style="
+      display: inline-block;
+      background-color: #fbbf24;
+      color: #991b1b;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 6px;
+      border: 2px solid #991b1b;
+    "
+  >
+    Go to Dashboard
+  </a>
+</div>
+
   </div>
   
   <div style="${footerStyle}">
