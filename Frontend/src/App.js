@@ -1117,7 +1117,7 @@ export default function GaneshAkharaWebsite() {
                             <ContactInfo 
                               icon={Clock} 
                               title="Office Hours" 
-                              text="Monday - Sunday | 9:00 AM - 8:00 PM (IST)" 
+                              text="Monday - Sunday | 7:00 AM - 9:00 PM (IST)" 
                             />
 
                             <ContactInfo
