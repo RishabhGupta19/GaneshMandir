@@ -173,7 +173,7 @@ export const userBookingConfirmed = (booking) => `
   
   <div style="padding: 24px;">
     <div style="text-align: center; margin-bottom: 24px;">
-      <div style="font-size: 48px; margin-bottom: 8px;">✅</div>
+      
       <h2 style="color: #166534; margin: 0 0 8px 0; font-size: 22px;">Booking Confirmed!</h2>
       <p style="color: #4b5563; margin: 0; line-height: 1.5;">
         Namaste ${booking.name},<br>
