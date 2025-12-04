@@ -827,7 +827,7 @@ export default function GaneshAkharaWebsite() {
                     <p className="text-4xl font-extrabold text-red-900 mb-3">₹1500<span className="text-lg font-medium text-gray-500">/night</span></p>
                     <ul className="space-y-2 text-gray-700 text-sm text-left">
                       <li className="flex items-center gap-2">✅ AC Facility</li>
-                      <li className="flex items-center gap-2">✅ Attached BathRoom</li>
+                      <li className="flex items-center gap-2">✅ Attached Bathroom</li>
                       <li className="flex items-center gap-2">✅ WiFi</li>
                       <li className="flex items-center gap-2">👥 2 Persons</li>
                     </ul>
@@ -839,7 +839,15 @@ export default function GaneshAkharaWebsite() {
                     <p className="text-4xl font-extrabold text-yellow-900 mb-3">₹33000<span className="text-lg font-medium text-gray-500">/Day</span></p>
                     <ul className="space-y-2 text-gray-700 text-sm text-left">
                       <li className="flex items-center gap-2">✅ Spacious</li>
-                      <li className="flex items-center gap-2">✅ Attached BathRoom</li>
+                       <li className="list-none flex items-start gap-2">
+                              <span className="flex-shrink-0">✅</span>
+                              <span className="flex-grow">
+                                Separate Male/Female<br/>
+                                Bathrooms
+                              </span>
+                            </li>
+
+                      <li className="flex items-center gap-2">✅ Bhandara style kitchen</li>
                     </ul>
 
                   </div>
