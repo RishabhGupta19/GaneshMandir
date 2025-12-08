@@ -817,7 +817,7 @@ export default function GaneshAkharaWebsite() {
                 <div className="text-center mb-10">
                   <Home className="w-12 h-12 mx-auto text-yellow-600 mb-4" />
                   <h2 className="text-4xl font-extrabold text-yellow-700 mb-2">| आपका स्वागत है |</h2>
-                  <p className="text-xl text-gray-600">Simple and clean accommodation for pilgrims</p>
+                  <p className="text-xl text-gray-600">Rooms & Budget Stay in Gauripur </p>
                 </div>
 
                 {/* Room Pricing Cards */}
