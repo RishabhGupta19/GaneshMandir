@@ -725,6 +725,13 @@ export default function GaneshAkharaWebsite() {
                   { src: "/ganeshji.png", title: "Lord Ganesha", height: "h-60 sm:h-65" },
                   { src: "/ganeshji1.jpg", title: "Ganesh Puja", height: "h-60 sm:h-56" },
                   { src: "/ganeshji2.png", title: "Night View", height: "h-60 sm:h-64" },
+                   { src: "/akhara1.jpg", title: "Office", height: "h-60 sm:h-64" },
+                  { src: "/akhara2.jpg", title: "Lawn", height: "h-60 sm:h-64" },
+                  { src: "/akhara3.jpg", title: "Garden and Sitting Area", height: "h-60 sm:h-64" },
+                  { src: "/akhara4.jpg", title: "GaneshJi", height: "h-60 sm:h-64" },
+                  { src: "/akhara5.jpg", title: "Main Mandir", height: "h-60 sm:h-64" },
+                  { src: "/akhara6.jpg", title: "GaneshJi", height: "h-60 sm:h-64" },
+                  { src: "/akhara7.jpg", title: "GaneshJi", height: "h-60 sm:h-64" },
                 ].map((item, i) => (
                   <div
                     key={i}
