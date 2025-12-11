@@ -707,36 +707,56 @@ export default function GaneshAkharaWebsite() {
           </section>
         )}
         {/* Gallery Section */}
-        {activeSection === 'gallery' && (
-          <section id="gallery" className="py-12 sm:py-16 bg-gradient-to-br from-orange-50 via-amber-50 to-red-50">
-            <div className="container mx-auto px-4">
+          {activeSection === 'gallery' && (
+  <section id="gallery" className="py-12 sm:py-16 bg-gradient-to-br from-orange-50 via-amber-50 to-red-50">
+    <div className="container mx-auto px-4">
 
-              <div className="text-center mb-10 md:mb-14">
-                <ImageIcon className="w-10 h-10 sm:w-12 sm:h-12 mx-auto text-red-600 mb-3" />
-                <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-red-700 mb-2">Temple Gallery</h2>
-                <p className="text-gray-600 text-sm sm:text-base md:text-lg max-w-xl mx-auto">
-                  Moments of devotion, culture, and divinity captured at Ganesh Akhara
-                </p>
-              </div>
+      <div className="text-center mb-10 md:mb-14">
+        <ImageIcon className="w-10 h-10 sm:w-12 sm:h-12 mx-auto text-red-600 mb-3" />
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-red-700 mb-2">Temple Gallery</h2>
+        <p className="text-gray-600 text-sm sm:text-base md:text-lg max-w-xl mx-auto">
+          Moments of devotion, culture, and divinity captured at Ganesh Akhara
+        </p>
+      </div>
 
-              {/* Masonry-style Gallery Grid */}
-              <div className="max-w-5xl mx-auto columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
-                {[
-                  { src: "/ganeshji.png", title: "Lord Ganesha", height: "h-60 sm:h-65" },
-                  { src: "/ganeshji1.jpg", title: "Ganesh Puja", height: "h-60 sm:h-56" },
-                  { src: "/ganeshji2.png", title: "Night View", height: "h-60 sm:h-64" },
-                   { src: "/akhara1.jpg", title: "Office", height: "h-60 sm:h-64" },
-                  { src: "/akhara2.jpg", title: "Lawn", height: "h-60 sm:h-64" },
-                  { src: "/akhara3.jpg", title: "Garden and Sitting Area", height: "h-60 sm:h-64" },
-                  { src: "/akhara4.jpg", title: "GaneshJi", height: "h-60 sm:h-64" },
-                  { src: "/akhara5.jpg", title: "Main Mandir", height: "h-60 sm:h-64" },
-                  { src: "/akhara6.jpg", title: "GaneshJi", height: "h-60 sm:h-64" },
-                  { src: "/akhara7.jpg", title: "GaneshJi", height: "h-60 sm:h-64" },
-                ].map((item, i) => (
-                  <div
-                    key={i}
-                    onClick={() => setPreviewImage(item.src)}
-                    className="
+      {/* Masonry-style Gallery Grid */}
+      <div className="max-w-5xl mx-auto columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
+        {[
+          { src: "/ganeshji.png", title: "Lord Ganesha", height: "h-60 sm:h-65", type: "image" },
+          { src: "/ganeshji1.jpg", title: "Ganesh Puja", height: "h-60 sm:h-56", type: "image" },
+          { src: "/ganeshji2.png", title: "Night View", height: "h-60 sm:h-64", type: "image" },
+          // Add videos like this:
+          // { src: "/temple-video.mp4", title: "Temple Festival", height: "h-60 sm:h-72", type: "video" },
+          { src: "/akhara1.jpg", title: "Office", height: "h-60 sm:h-64", type: "image" },
+          { src: "/akhara2.jpg", title: "Lawn", height: "h-60 sm:h-64", type: "image" },
+          { src: "/akhara3.jpg", title: "Relaxing Area", height: "h-60 sm:h-64", type: "image" },
+          { src: "/akhara4.jpg", title: "Lord Ganesha", height: "h-60 sm:h-64", type: "image" },
+          { src: "/akhara5.jpg", title: "Main Mandir", height: "h-60 sm:h-64", type: "image" },
+          { src: "/akhara6.jpg", title: "Lord Ganesha", height: "h-60 sm:h-64", type: "image" },
+          { src: "/akhara7.jpg", title: "Lord Ganesha", height: "h-60 sm:h-64", type: "image" },
+          { src: "/LawnNight.jpeg", title: "Lawn Night View", height: "h-60 sm:h-64", type: "image" },
+          { src: "/NightView.jpeg", title: "Night View", height: "h-60 sm:h-64", type: "image" },
+          { src: "/NightView2.jpeg", title: "Night View", height: "h-60 sm:h-64", type: "image" },
+          { src: "/View.jpeg", title: "Walk Around", height: "h-60 sm:h-64", type: "image" },
+          { src: "/Room.jpeg", title: "Room", height: "h-60 sm:h-64", type: "image" },
+          { src: "/Room2.jpeg", title: "Room", height: "h-60 sm:h-64", type: "image" },
+          { src: "/Room3.jpeg", title: "Room", height: "h-60 sm:h-64", type: "image" },
+          { src: "/Room4.jpeg", title: "Room", height: "h-60 sm:h-64", type: "image" },
+          { src: "/Vid1.mp4", title: "Mandir Area", height: "h-60 sm:h-72", type: "video" },
+          { src: "/Vid2.mp4", title: "Mandir", height: "h-60 sm:h-72", type: "video" },
+          { src: "/Vid3.mp4", title: "Fountain", height: "h-60 sm:h-72", type: "video" },
+          { src: "/Vid4.mp4", title: "Bhawan", height: "h-60 sm:h-72", type: "video" },
+          { src: "/Fountain.mp4", title: "Fountain", height: "h-60 sm:h-72", type: "video" },
+
+        ].map((item, i) => (
+          <div
+            key={i}
+            onClick={() => {
+              if (item.type === 'image') {
+                setPreviewImage(item.src);
+              }
+            }}
+            className="
               group
               relative
               cursor-pointer 
@@ -753,66 +773,87 @@ export default function GaneshAkharaWebsite() {
               hover:border-orange-400
               hover:-translate-y-1
             "
-                  >
-                    <img
-                      src={item.src}
-                      alt={item.title}
-                      className={`w-full ${item.height} object-cover transition-transform duration-700 group-hover:scale-110`}
-                    />
+          >
+            {item.type === 'video' ? (
+              <video
+                src={item.src}
+                autoPlay
+                muted
+                loop
+                playsInline
+                className={`w-full ${item.height} object-cover transition-transform duration-700 group-hover:scale-110`}
+                onClick={(e) => {
+                  const video = e.currentTarget;
+                  video.muted = !video.muted;
+                  video.loop = false;
+                }}
+              />
+            ) : (
+              <img
+                src={item.src}
+                alt={item.title}
+                className={`w-full ${item.height} object-cover transition-transform duration-700 group-hover:scale-110`}
+              />
+            )}
 
-                    {/* Gradient Overlay */}
-                    <div className="
-              absolute inset-0 
-              bg-gradient-to-t from-red-900/80 via-orange-900/20 to-transparent 
-              opacity-0 
-              group-hover:opacity-100 
-              transition-opacity duration-500
-            "/>
-
-                    {/* Title on hover */}
-                    <div className="
-              absolute bottom-0 left-0 right-0 
-              p-4 
-              translate-y-full 
-              group-hover:translate-y-0 
-              transition-transform duration-500
-            ">
-                      <h3 className="text-white font-bold text-lg drop-shadow-lg">{item.title}</h3>
-                      <p className="text-orange-200 text-sm">Click to view</p>
-                    </div>
-
-                    {/* Corner accent */}
-                    <div className="
-              absolute top-3 right-3 
-              w-8 h-8 
-              rounded-full 
-              bg-orange-500/80 
-              flex items-center justify-center
-              opacity-0 
-              group-hover:opacity-100 
-              scale-0 
-              group-hover:scale-100
-              transition-all duration-300 delay-100
-            ">
-                      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7" />
-                      </svg>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              {/* Decorative elements */}
-              <div className="text-center mt-10">
-                <div className="inline-flex items-center gap-2 text-orange-600/70 text-sm">
-                  <span className="w-8 h-px bg-orange-300"></span>
-                  <span>🙏 Jai Shree Ganesh 🙏</span>
-                  <span className="w-8 h-px bg-orange-300"></span>
+            {/* Video Play Icon Overlay */}
+            {item.type === 'video' && (
+              <div className="absolute inset-0 flex items-center justify-center pointer-events-none group-hover:opacity-0 transition-opacity duration-300">
+                <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full flex items-center justify-center shadow-2xl">
+                  <svg className="w-7 h-7 sm:w-8 sm:h-8 text-white ml-1" fill="white" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z"/>
+                  </svg>
                 </div>
               </div>
+            )}
+
+            {/* Video Badge */}
+            {item.type === 'video' && (
+              <div className="absolute top-3 left-3 px-2 py-1 rounded-full bg-red-600/90 text-white text-xs font-semibold flex items-center gap-1 shadow-lg">
+                <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
+                VIDEO
+              </div>
+            )}
+
+            {/* Gradient Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-red-900/80 via-orange-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
+
+            {/* Title on hover */}
+            <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
+              <h3 className="text-white font-bold text-lg drop-shadow-lg">{item.title}</h3>
+              <p className="text-orange-200 text-sm">
+                {item.type === 'video' ? "" : ""}
+              </p>
             </div>
-          </section>
-        )}
+
+            {/* Corner accent */}
+            <div className="absolute top-3 right-3 w-8 h-8 rounded-full bg-orange-500/80 flex items-center justify-center opacity-0 group-hover:opacity-100 scale-0 group-hover:scale-100 transition-all duration-300 delay-100">
+              {item.type === 'video' ? (
+                <svg className="w-4 h-4 text-white" fill="white" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              ) : (
+                <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7" />
+                </svg>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Decorative elements */}
+      <div className="text-center mt-10">
+        <div className="inline-flex items-center gap-2 text-orange-600/70 text-sm">
+          <span className="w-8 h-px bg-orange-300"></span>
+          <span>🙏 Jai Shree Ganesh 🙏</span>
+          <span className="w-8 h-px bg-orange-300"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+)}
+
 
 
         {/* Booking Section - More prominent pricing and form layout */}
