@@ -264,7 +264,7 @@ export default function GaneshAkharaWebsite() {
             <div className="flex items-center space-x-4">
               <div className="text-4xl animate-bounce-slow">🕉️</div> {/* Subtle animation */}
               <div>
-                <h1 className="text-3xl font-extrabold tracking-wider">Ganesh Akhara</h1>
+                <h1 className="text-3xl font-extrabold tracking-wider">Ganesh Akhara Mandir</h1>
                 <p className="text-sm text-yellow-300 font-semibold"> Gauripur ॥ ESTD 1901</p>
               </div>
             </div>
