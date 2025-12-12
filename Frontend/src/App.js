@@ -568,16 +568,25 @@ export default function GaneshAkharaWebsite() {
                   <div className="p-3 sm:p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-500 transition hover:shadow-md">
                     <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-yellow-700 mb-2">About Mandir</h3>
                     <p className="leading-relaxed text-sm sm:text-base md:text-lg">
-                      Ganesh Akhara in Gauripur is a popular Ganesh temple in the Dhubri district, known for its energy and being a significant site for religious activities, especially during Ganesh Chaturthi. It is a place where devotees gather for prayers and celebrations, and it also serves as a venue for weddings and other events. The temple is noted for its peaceful atmosphere, particularly during evening aartis. It also has wheelchair-accessible features, making it more accessible to the public.
-                      <br /><br />
-                      <strong>Religious significance:</strong> The temple is a central spot for devotion to Lord Ganesha, with many pilgrims visiting daily. It becomes especially vibrant during Ganesh Chaturthi, when large crowds gather to celebrate.
-                      <br /><br />
-                      <strong>Atmosphere:</strong> It is described as a place with a divine and energetic atmosphere, with the evening aarti creating a peaceful and calming environment.
-                      <br /><br />
-                      <strong>Functionality:</strong> Beyond its religious use, it is also equipped with amenities for hosting events like grand weddings.
-                      <br /><br />
-                      <strong>Accessibility:</strong> The temple provides a wheelchair-accessible entrance and parking lot.
-                    </p>
+                        Ganesh Akhara in Gauripur is a popular Ganesh temple in the Dhubri district, known for its divine energy and being a significant site for religious activities, especially during Ganesh Chaturthi. It is a place where devotees gather for prayers, celebrations, and peaceful darshan. The temple is also chosen for weddings, community events, and various religious ceremonies. Its calm atmosphere, especially during the evening aarti, makes it one of the most visited spiritual spots in Gauripur. The premises also include wheelchair-accessible entry and parking, making it more welcoming for all visitors.
+                        <br /><br />
+                      
+                        <strong>Religious significance:</strong> The temple is a central spot for devotion to Lord Ganesha, with many pilgrims visiting daily. During Ganesh Chaturthi, the temple becomes a vibrant spiritual hub with rituals, bhajans, and large gatherings.
+                        <br /><br />
+                      
+                        <strong>Atmosphere:</strong> Visitors describe the temple as peaceful, divine, and spiritually uplifting. The evening aarti creates a calming environment that attracts devotees from Gauripur, Dhubri, and nearby towns.
+                        <br /><br />
+                      
+                        <strong>Functionality:</strong> Beyond worship, the temple also serves as a venue for grand weddings, cultural functions, and other community events. It offers spacious areas and essential facilities for hosting large gatherings.
+                        <br /><br />
+                      
+                        <strong>Accommodation for Devotees:</strong> Ganesh Akhara also provides <em>clean and affordable rooms in Gauripur</em> for devotees, families, and travelers. Visitors looking for 
+                        <em>budget stays in Gauripur</em>, <em>hotel-style rooms in Dhubri</em>, or <em>accommodation near Gauripur temple</em> can book the temple’s lodging options. The available rooms include basic amenities, comfortable space, and a peaceful environment ideal for pilgrims and tourists.
+                        <br /><br />
+                      
+                        <strong>Accessibility:</strong> The temple premises include a wheelchair-accessible entrance, dedicated parking space, and easy access routes, ensuring a smooth experience for elderly visitors and people with special needs.
+                      </p>
+
                   </div>
                 </div>
                 <div className="text-center mt-8">
