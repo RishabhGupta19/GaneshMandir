@@ -581,7 +581,7 @@ export default function GaneshAkharaWebsite() {
                         <br /><br />
                       
                         <strong>Accommodation for Devotees:</strong> Ganesh Akhara also provides <em>clean and affordable rooms in Gauripur</em> for devotees, families, and travelers. Visitors looking for 
-                        <em>budget stays in Gauripur</em>, <em>hotel-style rooms in Dhubri</em>, or <em>accommodation near Gauripur temple</em> can book the temple’s lodging options. The available rooms include basic amenities, comfortable space, and a peaceful environment ideal for pilgrims and tourists.
+                        <em> budget stays in Gauripur</em>, <em>hotel-style rooms in Dhubri</em>, or <em>accommodation near Gauripur temple</em> can book the temple’s lodging options. The available rooms include basic amenities, comfortable space, and a peaceful environment ideal for pilgrims and tourists.
                         <br /><br />
                       
                         <strong>Accessibility:</strong> The temple premises include a wheelchair-accessible entrance, dedicated parking space, and easy access routes, ensuring a smooth experience for elderly visitors and people with special needs.
