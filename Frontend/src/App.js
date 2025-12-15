@@ -1012,26 +1012,28 @@ export default function GaneshAkharaWebsite() {
                         required
                       />
                     </div>
-                                 <label className="block text-gray-700 font-bold mb-2">
-                              Number of Rooms <span className="text-red-500">*</span>
-                            </label>
-              
-                            <select
-                              value={bookingForm.rooms}
-                              onChange={(e) =>
-                                setBookingForm({ ...bookingForm, rooms: Number(e.target.value) })
-                              }
-                              className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition bg-white"
-                              required
-                            >
-                              <option value="">Select rooms</option>
-                              {[1, 2, 3, 4, 5].map((num) => (
-                                <option key={num} value={num}>
-                                  {num}
-                                </option>
-                              ))}
-                            </select>
-                          </div>
+                          <div>
+                              <label className="block text-gray-700 font-bold mb-2">
+                                Number of Rooms <span className="text-red-500">*</span>
+                              </label>
+                            
+                              <select
+                                value={bookingForm.rooms}
+                                onChange={(e) =>
+                                  setBookingForm({ ...bookingForm, rooms: Number(e.target.value) })
+                                }
+                                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-red-500 focus:ring-1 focus:ring-red-500 outline-none transition bg-white"
+                                required
+                              >
+                                <option value="">Select rooms</option>
+                                {[1, 2, 3, 4, 5].map((num) => (
+                                  <option key={num} value={num}>
+                                    {num}
+                                  </option>
+                                ))}
+                              </select>
+                            </div>
+
                   </div>
                   <ToastContainer />
                   <button
